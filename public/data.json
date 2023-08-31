@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "What will the following JavaScript code return?",
+    "code": "function add(a, b) {\n  return a + b;\n}\n\nadd(5, 3);",
+    "answers": [
+      "5 + 3",
+      "8",
+      "add(5, 3)",
+      "Undefined"
+    ],
+    "correctAnswer": "8",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 2,
+    "question": "What is the output of the following code?",
+    "code": "console.log(1 + '1' - 1);",
+    "answers": [
+      "11",
+      "10",
+      "1",
+      "NaN"
+    ],
+    "correctAnswer": "10",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": "What is the result of the following code?",
+    "code": "const x = 5;\nfunction foo() {\n  console.log(x);\n}\nfoo();",
+    "answers": [
+      "5",
+      "undefined",
+      "ReferenceError",
+      "null"
+    ],
+    "correctAnswer": "5",
+    "correctAnswerIndex": 0
+  },
+  {
+    "id": 4,
+    "question": "What does the following code return?",
+    "code": "function test() {\n  return\n  {\n    message: 'Hello, World!'\n  };\n}\n\nconsole.log(test());",
+    "answers": [
+      "{ message: 'Hello, World!' }",
+      "undefined",
+      "SyntaxError",
+      "null"
+    ],
+    "correctAnswer": "undefined",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 5,
+    "question": "What is the output of the following code?",
+    "code": "const arr = [1, 2, 3];\narr[10] = 10;\nconsole.log(arr[6]);",
+    "answers": [
+      "6",
+      "undefined",
+      "3",
+      "10"
+    ],
+    "correctAnswer": "undefined",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 6,
+    "question": "What will the following code return?",
+    "code": "function multiply(a, b) {\n  return a * b;\n}\n\nmultiply(4, 7);",
+    "answers": [
+      "4 * 7",
+      "28",
+      "multiply(4, 7)",
+      "Undefined"
+    ],
+    "correctAnswer": "28",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 7,
+    "question": "What is the result of the following code?",
+    "code": "const name = 'John';\nfunction greet() {\n  console.log('Hello, ' + name + '!');\n}\n\nname = 'Alice';\ngreet();",
+    "answers": [
+      "'Hello, John!'",
+      "'Hello, Alice!'",
+      "ReferenceError",
+      "TypeError"
+    ],
+    "correctAnswer": "TypeError",
+    "correctAnswerIndex": 3
+  },
+  {
+    "id": 8,
+    "question": "What is the output of the following code?",
+    "code": "function test() {\n  return 1, 2, 3;\n}\n\ntest();",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "[1, 2, 3]"
+    ],
+    "correctAnswer": "3",
+    "correctAnswerIndex": 2
+  },
+  {
+    "id": 9,
+    "question": "What will the following code return?",
+    "code": "const arr = [1, 2, 3];\nconst arrCopy = arr;\narr.push(4);\nconsole.log(arrCopy.length);",
+    "answers": [
+      "3",
+      "4",
+      "0",
+      "1"
+    ],
+    "correctAnswer": "4",
+    "correctAnswerIndex": 1
+  },
+  {
+    "id": 10,
+    "question": "What does the 'typeof' operator return for an undeclared variable?",
+    "code": "",
+    "answers": [
+      "'undefined'",
+      "'null'",
+      "'ReferenceError'",
+      "'NaN'"
+    ],
+    "correctAnswer": "'undefined'",
+    "correctAnswerIndex": 0
+  }
+]
