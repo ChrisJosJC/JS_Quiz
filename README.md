@@ -1,4 +1,5 @@
 # JavaScript Quiz App
+![image](https://github.com/ChrisJosJC/JS_Quiz/assets/63082513/10644794-0326-48a9-b5b4-23b36473dd5d)
 
 ## Overview
 
